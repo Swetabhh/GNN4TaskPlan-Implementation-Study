@@ -30,6 +30,12 @@ Predicted Task Nodes + Links
      ↓
 Structural Evaluation
 
+## System Overview
+
+![GNN4TaskPlan task-planning overview](README.assets/task.jpg)
+
+*Figure from the original GNN4TaskPlan implementation; included here for reference.*
+
 ```
 
 ## Implementation Scope
