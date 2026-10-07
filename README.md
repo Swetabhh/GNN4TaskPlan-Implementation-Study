@@ -30,12 +30,6 @@ Predicted Task Nodes + Links
      ↓
 Structural Evaluation```
 
-## System Overview
-
-![GNN4TaskPlan task-planning overview](README.assets/task.jpg)
-
-*Figure from the original GNN4TaskPlan implementation; included here for reference.*
-
 ## Implementation Scope
 
 I traced the released implementation end to end, from task decomposition and graph construction to retrieval and evaluation, and documented the main design choices and implementation-level behavior.
@@ -82,6 +76,12 @@ H = αX + (1 − α) A_norm X
 ```
 
 The training-free code tries several values of `α`, from `0.50` to `1.00`.
+
+## System Overview
+
+![GNN4TaskPlan task-planning overview](README.assets/task.jpg)
+
+*Figure from the original GNN4TaskPlan implementation; included here for reference.*
 
 ### 3. Retrieval goes step by step and stays on the graph
 
